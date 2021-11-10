@@ -12,6 +12,6 @@ submit.addEventListener('click', () => {
 
 const agreement = document.getElementById('agreement');
 const submitBtn = document.getElementById('submit-btn');
-agreement.onchange = function () {
+agreement.onchange = function funcCheck() {
   submitBtn.disabled = !this.checked;
 };
