@@ -1,35 +1,154 @@
 * {
-    padding: 0;
     margin: 0;
-}
-
-.header{
+  }
+  
+  .header {
     background-color: rgb(50, 167, 145);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
     padding: 10px;
-}
-
-.trybewarts-header-logo {
+  }
+  
+  .trybewarts-header-logo {
     width: 50px;
-}
-
-main {
+  }
+  
+  .trybewarts-login {
     display: flex;
-}
-
-form {
+    flex-direction: row;
+  }
+  
+  .trybewarts-header-title {
+    text-align: center;
+  }
+  
+  main {
     display: flex;
-}
-
-#evaluation-form{
-    width: 675px;
+    justify-content: center;
+  }
+  
+  main h1 {
+    display: flex;
+    align-self: center;
     flex-direction: column;
-}
-
-#trybewarts-forms-logo{
+    margin-bottom: 25px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #evaluation-form {
+    margin: 20px;
+    width: 675px;
+  }
+  
+  #trybewarts-forms-logo {
     height: 500px;
-}
-
+  }
+  
+  .row1 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .row1 input {
+    display: flex;
+    padding: 8px 0;
+    margin-right: 5px;
+    width: 45%;
+    align-self: center;
+  }
+  
+  .row1 label {
+    margin-right: 5px;
+  }
+  
+  .row1 select {
+    display: flex;
+    padding: 8px 0;
+    width: 45%;
+    align-self: stretch;
+  }
+  
+  .row2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  #content-row {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+  }
+  
+  .family label {
+    padding-left: 6px;
+    padding-right: 15px;
+  }
+  
+  #content-row label {
+    padding-left: 6px;
+    padding-right: 15px;
+  }
+  
+  .family-row {
+    padding: 5px 15px 5px 6px;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  .family {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #label-rate {
+    margin-right: 15px;
+  }
+  
+  #avaliator {
+    margin-bottom: 20px;
+  }
+  
+  #textarea {
+    resize: none;
+    margin-bottom: 8px;
+  }
+  
+  #container-agreement {
+    margin-bottom: 5px;
+  }
+  
+  #submit-btn {
+    margin: 20px 0;
+    padding: 7px 0;
+    border: none;
+    color: white;
+    background-color: rgb(65, 13, 124);
+  }
+  
+  #submit-btn:hover {
+    background-color: rgb(7, 102, 247);
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+    background-color: rgb(46, 46, 46);
+  }
+  
